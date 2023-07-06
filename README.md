@@ -476,8 +476,8 @@ Get started with Nearby Jobs and complete it.
 ### 6. Job Details Screen
 
 - Creat a new folder `job-details` in the main directory and create a dynamic route of the name `[id].js` inside it
-- 
-
+- Complete it along with its several components.
+[Not implemented: like a job and share a job functionality]
 
 ### 7. Search Functionality
 ### 8. Deployment
