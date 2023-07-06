@@ -474,6 +474,11 @@ Create a `utils` folder in the main directory and then have an `index.js` inside
 Get started with Nearby Jobs and complete it.
 
 ### 6. Job Details Screen
+
+- Creat a new folder `job-details` in the main directory and create a dynamic route of the name `[id].js` inside it
+- 
+
+
 ### 7. Search Functionality
 ### 8. Deployment
 
@@ -489,3 +494,5 @@ Get started with Nearby Jobs and complete it.
 - write clean, organized, and maintainable code with proper architecture
 - using stylesheets to dynamically apply styles to components based on user input
 - follow the best practices for React Native development
+- use [this](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets) extension and type `rafce` for boilerplate react code
+- remember for dynamic routes use: [] and for dynamic values use ${}
