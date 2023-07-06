@@ -13,6 +13,8 @@ const Home = () => {
     // defining the router, here useRouter is the hook
     const router = useRouter();
 
+    const[ searchTerm, setSearchTerm] = useState("");
+
     return (
         // we have changed the wrapper from View to SafeAreaView to show the content safely
         // we will also apply some styles as follows
@@ -47,7 +49,15 @@ const Home = () => {
                 padding: SIZES.medium
             }}
             >
-            <Welcome />
+             <Welcome
+            searchTerm={searchTerm}
+            setSearchTerm={setSearchTerm}
+            handleClick={() => {
+              if (searchTerm) {
+                router.push(`/search/${searchTerm}`)
+              }
+            }}
+          />
             <Popularjobs />
             <Nearbyjobs />
             </View>

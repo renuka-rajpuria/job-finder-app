@@ -480,10 +480,10 @@ Get started with Nearby Jobs and complete it.
 [Not implemented: like a job and share a job functionality]
 
 ### 7. Search Functionality
+
+- Changes to `./app/index.js`, and the `welcome` component.
+
 ### 8. Deployment
-
-
-
 
 
 ## Concepts Learnt:
