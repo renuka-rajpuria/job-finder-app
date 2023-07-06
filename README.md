@@ -485,6 +485,7 @@ Get started with Nearby Jobs and complete it.
 
 ### 8. Deployment
 
+- use `expo publish` to publish the application
 
 ## Concepts Learnt:
 - develop visually appealing UI/UX designs
